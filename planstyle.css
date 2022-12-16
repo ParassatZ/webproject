@@ -1,0 +1,46 @@
+.up{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.up div{
+    display: grid;
+}
+.up h1{
+    font-size: 100px;
+}
+.up p{
+    font-size: 20px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.win{
+    border: 0.1px solid rgb(192, 192, 192);
+    display: grid;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.win h1{
+    font-size: 60px;
+}
+.select{
+    background-color: #9966FF;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: white;
+    border-radius: 5px;
+}
+.txt{
+    color: rgb(192, 192, 192);
+}
+.txt2{
+    color: gray;
+}
