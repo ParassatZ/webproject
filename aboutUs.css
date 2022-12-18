@@ -87,7 +87,7 @@
 .sub-header2{
     height: 85vh;
     width:100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(https://cdn.mens-folio.com/2021/11/Screenshot-2021-11-03-at-11.57.39-AM.jpg?lossy=1&webp=92&resize=960%2C637&ssl=1);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(../img/bannerAboutus.jpg);
     background-position-x: -20px;
     background-position:65px;
     background-size: cover;
