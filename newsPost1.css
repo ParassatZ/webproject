@@ -65,7 +65,7 @@ body {
     transition: .5s;
     letter-spacing: 0;  
 }
-link:hover {
+.link:hover {
   letter-spacing: 1px;
   opacity: 1;
   color:#131885;
