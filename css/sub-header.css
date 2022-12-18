@@ -15,7 +15,7 @@
 .sub-header1{
     height: 85vh;
     width:100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(../img/bannerNews.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(https://r.lvmh-static.com/uploads/2021/12/site-news-cover-12-1584x872.jpg);
     background-position-x: -20px;
     background-position:0px;
     background-size: cover;
