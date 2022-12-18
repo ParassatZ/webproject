@@ -24,6 +24,12 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.nav-items a{
+    margin-left: 20px;
+    color:#131885;
+     width:30px;
+     font-size: 30px;
+}
 .brand-logo{
     height: 60px;
     align-items: center;
