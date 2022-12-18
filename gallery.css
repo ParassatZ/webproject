@@ -1,0 +1,19 @@
+section{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.up{
+    display: flex;
+}
+.grid1{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.grid2{
+    display: grid;
+}
+.first{
+    display:grid
+}
