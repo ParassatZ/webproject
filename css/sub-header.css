@@ -1,0 +1,142 @@
+
+@import 'nav.css';
+@import 'footer.css';
+
+.sub-header2{
+    height: 85vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(https://cdn.mens-folio.com/2021/11/Screenshot-2021-11-03-at-11.57.39-AM.jpg?lossy=1&webp=92&resize=960%2C637&ssl=1);
+    background-position-x: -20px;
+    background-position:65px;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+.sub-header1{
+    height: 85vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(../img/bannerNews.jpg);
+    background-position-x: -20px;
+    background-position:0px;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+.sub-header3{
+    height: 55vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(https://www.globalcosmeticsnews.com/wp-content/uploads/2022/01/mbappe-sauvage.jpg);
+    background-position-x: -20px;
+    background-position:0px;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+.title{
+    font-size: 60px;
+    padding-top: 200px;
+    text-transform: uppercase; 
+    color:transparent;
+    -webkit-text-stroke:2px white;
+}
+.headerM{
+    height: 90vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(https://cdn.mens-folio.com/2021/11/Screenshot-2021-11-03-at-11.57.39-AM.jpg?lossy=1&webp=92&resize=960%2C637&ssl=1);
+    background-position-x: -20px;
+    background-position:0px;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    margin-bottom: 60px;
+}
+.headerSauv{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.458)),url(https://www.thesundaily.my/binrepository/480x634/0c192/480d250/none/11808/EWCS/johnny-sauvage_1848588_20201201214616.jpg);
+    background-position-y: 90%;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    margin-top: 60px;
+}
+.titleSauv{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 8rem;
+    text-transform: uppercase; 
+    color:transparent;
+    -webkit-text-stroke:2px white;
+}
+.headerVer{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.458)),url(https://i.guim.co.uk/img/media/827ea2deef5a01796e1e30ffbef01645210b1d03/0_86_2457_1474/master/2457.jpg?width=700&quality=85&auto=format&fit=max&s=31a8bc02d205d3244449938c0d0b6b12);
+    background-position-y: 65%;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    margin-top: 60px;
+    
+}
+.headerChan{
+    height: 50vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.458)),url(https://i.pinimg.com/originals/89/3c/14/893c14b9363ac5632d9df010271c1f42.jpg);
+    background-position-y: 50%;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    margin-top: 60px;
+    background-repeat: initial;
+}
+
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.text-box h3{
+    font-size: 35px;
+   font-weight: 400;
+   margin-left: 10px;
+   margin-top: -20px;
+   margin-bottom: 35px;
+}
+
+@media (max-width: 600px){
+    .title{
+        padding-left: 3%;
+        padding-right: 3%;
+
+    }
+    .headerM{
+        background-position: center center;
+    }
+
+}
+@media (max-width: 572px){
+    .title{
+        padding: auto;
+        font-size: 50px;
+        -webkit-text-stroke: 1.5px white;
+
+    }
+
+}
+@media (max-width: 362px){
+    .title{
+        padding: auto;
+        font-size: 40px;
+        -webkit-text-stroke: 1.2px white;
+
+    }
+    .headerM{
+        background-position: center center;
+    }
+    
+}
+
+
+
