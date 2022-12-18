@@ -1,123 +1,613 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Raleway:ital,wght@0,400;0,500;0,600;0,800;1,300;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>Contact us</title>
-    <script src="contact.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-</head>
-<body>
-    <nav class="navbar">
-        <div class="nav">  
-            <a href="index.html" style="text-decoration: none; color: black;"><h1 class="brand-logo">NOB</h1></a>        
-        </div>
-        <div class="cla">
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="links-container">
-                <ul>
-                    <li class="link-item"><a href="./index.html" class="link">Shopping</a></li>
-                    <li class="link-item"><a href="./aboutUs.html" class="link">about us</a></li>
-                    <li class="link-item"><a href="./newsPage.html" class="link">news</a></li>
-                    <li class="link-item"><a href="./Contact.html" class="link">contact us</a></li>
-                </ul>
-            </div>
-        </div>       
-</nav>
-<section class="sub-header3">
-    <div class="title">
-        <h1 style="margin-top: -180px;">Contact us</h1>
-    </div>
-</section>   
-    <section class="bruh">
-    <div class="container">
-        <div class="img-box">
-            <img src="https://e1.pxfuel.com/desktop-wallpaper/155/491/desktop-wallpaper-johnny-depp-defends-dior-sauvage-campaign-from-controversy-johnny-depp-aesthetic.jpg" style="height: 100%; width: 100%; " alt="">
-        </div>
-        <div class="row1">  
-            <div class="col-sm-4">
-                <form action="mail.php" method="POST">
-                    <div class="form-group">
-                        <label for="" style="display: flex; margin-top: -50px; margin-left:370px; margin-right:-150px;font-size: 25px; font-weight: 500;">Your name: </label>
-                        <input type="text" class="form-control" id="" name="user_name" placeholder="..."
-                         style=" margin-left: 370px; margin-top: 10px; border-radius:5px; border: 1px solid #131885;padding: 6px 0;">
-                    </div>       
-                    <div class="form-group">
-                        <label for="" style="display: flex; margin-left: 370px; font-size: 25px; font-weight: 500; margin-top:5px;">Phone: </label>
-                        <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999"
-                         style=" margin-left: 370px; margin-top: 10px; border-radius:5px; border: 1px solid #131885;padding: 6px 0;">
-                    </div>               
-                    <div class="form-group">
-                        <label for="" style="display: flex; margin-left: 370px;font-size: 25px; font-weight: 500; margin-top:5px;">Subject: </label>
-                        <input type="text" class="form-control" id="" name="user_subject" placeholder="..." 
-                        style=" margin-left: 370px; margin-top: 10px; border-radius:5px; border: 1px solid #131885;padding: 6px 0;">
-                    </div>
-                    <div class="form-group">
-                        <label for="" style="display: flex;margin-left: 370px;margin-right:-150px; margin-top:5px;font-size: 25px; font-weight: 500;">Your problem: </label>
-                        <textarea type="text" class="form-control" id="" name="user_txt" placeholder="..." 
-                        style=" margin-left: 370px; margin-top: 10px; border-radius:5px; border: 1px solid #131885;padding: 6px 0; resize: none;"> </textarea>
-                    </div>              
-                    <button type="submit" class="btn btn-primary" style=" margin-left: 370px; border-radius:5px; margin-top: 20px;font-size: 15px;">Send</button>
-                </form>
-            </div>
-        </div> 
-    </div>
-    </section>
-<footer class="footer">
-    <div class="container">
-        <div class="row">      
-            <div class="footer-col">
-                <h4>Shop</h4>
-                <ul>
-                        <li><a href="#parfumS">Perfume</a></li>
-                        <li><a href="#sauvages">Sauvage</a></li>
-                        <li><a href="#versaces">Versace</a></li>
-                        <li><a href="#chanels">Chanel</a></li>
-                        <li><a href="#">love</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Service</h4>
-                <ul>
-                    <li><a href="#">Quality</a></li>
-                    <li><a href="#">Perfection</a></li>
-                    <li><a href="#">Beauty</a></li>
-                    <li><a href="#">Speed</a></li>
-                    <li><a href="#">Promise</a></li>
-                </ul>
-            </div>            
-            <div class="footer-col">
-                <h4>Information</h4>
-                <ul>
-                    <li><a href="#">Return Policy</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Warranties</a></li>
-                    <li><a href="#">Cookie Settings</a></li>
-                </ul>
-            </div>            
-            <div class="footer-col">
-                <h4>Follow us</h4>
-                <div class="social-l">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+body {
+  color: #4d4d4d;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+}
+section {
+  position: relative;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5;
+}
+section.active {
+  background-color: rgb(252, 252, 252);
+}
+section .container {
+  position: relative;
+  width: 900px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+section .user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+section .img-box {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  transition: all 500ms ease-in-out;
+}
+section .img-box img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section .form-box {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  transition: 500ms ease-in-out;
+}
+section .form-box .top {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+section .form-box .top p {
+  font-size: 13px;
+}
+section .form-box .top span {
+  color: #131885;
+  cursor: pointer;
+}
+section form {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user .form-box form .form-control input{
+  padding: 10px;
+}
+section form .form-control:first-child {
+  text-align: center;
+}
+section form .form-control:first-child input {
+
+  border-radius: 5px;
+  border: 1px solid #131885;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  text-indent: 1px;
+  font-size: 13px;
+  outline: none;
+}
+section form .form-control:first-child input[type="submit"] {
+  display: block;
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #131885;
+  color: white;
+  transition: 0.5s;
+}
+section form .form-control:first-child input[type="submit"]:hover {
+  background-color: #131885;
+}
+section form .form-control:first-child h2 {
+  width: 100%;
+  font-weight: 400;
+  font-size: 26px;
+}
+section form .form-control:first-child p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+section form .form-control:first-child span {
+  font-size: 13px;
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+}
+section form .form-control:first-child div {
+  position: relative;
+}
+section form .form-control:first-child .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+  cursor: pointer;
+}
+section form .form-control:last-child {
+  text-align: center;
+}
+section form .form-control:last-child p {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+}
+section form .form-control:last-child p::after {
+  content: "";
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 2px;
+  background-color: #ddd;
+}
+section form .form-control:last-child p::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 2px;
+  background-color: #ddd;
+}
+section form .form-control:last-child .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+section form .form-control:last-child .icon {
+  cursor: pointer;
+}
+section form .form-control:last-child .icon:not(:last-child) {
+  margin-right: 15px;
+}
+section .container .signup {
+  pointer-events: none;
+}
+section .container.active .signup {
+  pointer-events: initial;
+}
+section .container .signup .form-box {
+  top: 100%;
+}
+section .container.active .signup .form-box {
+  top: 0;
+}
+section .container .signup .img-box {
+  top: -100%;
+}
+section .container.active .signup .img-box {
+  top: 0;
+}
+section .container .login .form-box {
+  top: 0;
+}
+section .container.active .login .form-box {
+  top: 100%;
+}
+section .container .login .img-box {
+  top: 0;
+}
+section .container.active .login .img-box {
+  top: -100%;
+}
+@media (max-width: 996px) {
+  section .container {
+    max-width: 400px;
+  }
+  section .container .img-box {
+    display: none;
+  }
+  section .container .form-box {
+    width: 100%;
+  }
+  section .container.active .login .form-box {
+    top: -100%;
+  }
+}
+@media (max-width: 567px) {
+  section {
+    padding: 0 30px;
+  }
+}
+.title{
+    font-size: 60px;
+    padding-top: 200px;
+    text-transform: uppercase; 
+    color:transparent;
+    -webkit-text-stroke:2px white;
+}
+@media (max-width: 600px){
+    .title{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+@media (max-width: 572px){
+    .title{
+        padding: auto;
+        font-size: 50px;
+        -webkit-text-stroke: 1.5px white;
+    }
+}
+@media (max-width: 362px){
+    .title{
+        padding: auto;
+        font-size: 40px;
+        -webkit-text-stroke: 1.2px white;
+    }
+}
+.sub-header3{
+  height: 55vh;
+  width:100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(https://www.globalcosmeticsnews.com/wp-content/uploads/2022/01/mbappe-sauvage.jpg);
+  background-position-x: -20px;
+  background-position:0px;
+  background-size: cover;
+  text-align: center;
+  color:white;
+}
+.footer{
+  background-color: rgba(238, 227, 227, 0.479);
+  padding: 30px,0;
+}
+.container{
+  max-width:100%;
+  margin:auto;
+  padding: 70px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 20px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #131885;
+  height: 0.09em;
+  box-sizing: border-box;
+  width: 20%;
+  border-radius: 0%;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+color: #131885;
+padding-left: 8px;
+}
+.footer-col .social-l a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #131885;
+  margin: 0px 10px 10px 0px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: rgb(255, 253, 253);
+  transition: all 0.5s ease;
+}
+.footer-col .social-l a:hover{
+  color: #131885;
+  background-color: rgb(255, 255, 255);
+  
+}
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+.footer{
+  background-color: rgba(238, 227, 227, 0.479);
+  padding: 30px,0;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 20px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #131885;
+  height: 0.09em;
+  box-sizing: border-box;
+  width: 20%;
+  border-radius: 0%;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+color: #131885;
+padding-left: 8px;
+}
+.footer-col .social-l a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #131885;
+  margin: 0px 10px 10px 0px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: rgb(255, 253, 253);
+  transition: all 0.5s ease;
+}
+.footer-col .social-l a:hover{
+  color: #131885;
+  background-color: rgb(255, 255, 255);
+}
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+.cla{
+  background-color: #fff;
+}
+.navbar{
+  position:sticky;
+  top:0;
+  left:0;
+  width:100%;
+  background: rgb(255, 255, 255);
+  z-index:9;
+}
+.nav{
+  padding: 10px 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.brand-logo{
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+.links-container{
+  width:100%;
+  padding: 10px 10vw;
+  justify-content: center;
+  list-style: none;
+  border-top: 1px solid rgb(212, 208, 208);
+}
+.links-container ul{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.links-container ul li a{
+  display: block;
+  padding: 0.5rem;
+  font-weight: 600;
+  color: #131885; 
+}
+.link{
+  text-transform: uppercase;
+  padding: 0 10px;
+  margin:0 5px;
+  text-decoration: none;
+  font-size: 15px;  
+  color:#131885;
+  opacity: 0.5;
+  transition: .5s;
+  letter-spacing: 0;  
+}
+link:hover {
+letter-spacing: 1px;
+opacity: 1;
+color:#131885;
+transition: ease-in;
+transition-duration: 0.2s;
+text-decoration: underline;
+}
+button{
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #131885;
+  color: aliceblue;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;  
+}
+button:hover{
+  background-color: #131885;
+}
+hr {
+  width: 250px;
+  height: 3px;
+  background-color:#131885;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slide {
+  width: 100%;
+  height: 100vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(26, 25, 25, 0.5);
+}
+.slide-1 {
+  background-image: url("https://i.f1g.fr/media/madame/704x/sites/default/files/img/2021/12/en-col-roule-pour-le-parfum-eau-sauvage-de-christian-dior-photo-4.jpg");
+}
+.slide-2 {
+  background-image: url("https://www.posterimage.it/wp-content/uploads/2017/03/Dior-Zidane-1.jpg");
+}
+.slide-3 {
+  background-image: url("https://voyage-onirique.com/wp-content/uploads/2022/03/FG0rq4MXMAYQHVq.jpg");
+}
+.slide-content {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+  padding: 0 20%;
+}
+.slide-content h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.slide-content p {
+  text-transform: lowercase;
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.toggle-button{
+  margin-top: 30px;
+  position: absolute;
+  top: 0%;
+  right: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  display: none;
+  margin-left: .2em;
+}
+.toggle-button .bar{
+  height: 5px;
+  width: 100%;
+  background-color: #131885;
+  border-radius: 10px;
+}
+@media (max-width: 991px){
+  .links-container{
+      padding: 12px 1vh;
+      height: 50px;
+  }
+}
+@media (max-width: 534px){
+  .cla {
+      flex-direction: column;
+      align-items: flex-start;    
+  }
+  .toggle-button {
+      display: flex;
+      margin-left: auto;
+  }
+  .links-container {
+      display: none;
+      width: 100%;
+      height: 100%;
+  }
+  .links-container ul {
+      width: 100%;
+      flex-direction: column;
+  }
+  .links-container ul li {
+      text-align: center;
+  }
+  .links-container ul li a {
+      padding: .5rem 1rem;
+  }
+  .links-container.active {
+      display: flex;
+      background-color: white;
+  }
+}
+  .toggle-button{
+      position: absolute;
+  }   
