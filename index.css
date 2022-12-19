@@ -38,35 +38,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
-#try {
-    padding: 0 0;
-    margin: 0;    
-}
-
-@media (max-width: 1200px){
-    #try {
-        max-width: 970px;
-    }
-}
-
-@media (max-width: 992px){
-    #try {
-        max-width: 750px;
-    }
-}
-
-@media (max-width: 767px){
-    #try {
-        max-width: none;
-    }
-}
-.nav-items a{
-    margin-left: 20px;
-    color:rgb(214, 163, 163);
-     width:30px;
-     font-size: 30px;
-}
 .links-container{
     width:100%;
     padding: 10px 10vw;
@@ -197,35 +168,6 @@ button:hover{
 
     }
 
-}
-@media (max-width: 455px){
-    .nav-items{
-        margin-right: 5%;
-    }
-    
-}
-@media (max-width: 372px){
-    .nav-items{
-        margin-right: 3%;
-    }
-    
-    
-}
-@media (max-width: 351px){
-    .nav-items{
-        margin-right: 5%;
-    }
-    .toggle-button{
-        position: absolute;
-    }
-    
-}
-@media (max-width: 325px){
-    .nav-items{
-        margin-right: 10%;
-    }
-    
-    
 }
 .slideshow-container {
     max-width: 65%;
@@ -389,11 +331,6 @@ button:hover{
     right: 0;
     margin-right: 50px;
     border-radius: 0 3px 3px 0;
-}
-  
-  
-  .pre-btn:hover, .nxt-btn:hover {
-    background-color: #131885;
 }
   
   @media (max-width: 1249px){
@@ -577,11 +514,6 @@ ul{
     color:white;
     margin-top: 60px;
     background-repeat: initial;
-}
-@keyframes back{
-    100%{
-        background-position: 2000px 0;
-    }
 }
 @media (max-width: 600px){
     .title{
