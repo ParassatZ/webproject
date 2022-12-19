@@ -47,25 +47,6 @@ section .img-box img {
   top: 0;
   left: 0;
 }
-section .form-box {
-  position: relative;
-  width: 50%;
-  height: 100%;
-  background-color: white;
-  transition: 500ms ease-in-out;
-}
-section .form-box .top {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-}
-section .form-box .top p {
-  font-size: 13px;
-}
-section .form-box .top span {
-  color: #131885;
-  cursor: pointer;
-}
 section form {
   position: absolute;
   top: 55%;
@@ -75,14 +56,13 @@ section form {
   flex-direction: column;
   justify-content: space-between;
 }
-.user .form-box form .form-control input{
+.form-control input{
   padding: 10px;
 }
-section form .form-control:first-child {
+.form-control:first-child {
   text-align: center;
 }
 section form .form-control:first-child input {
-
   border-radius: 5px;
   border: 1px solid #131885;
   padding: 10px 0;
@@ -170,48 +150,12 @@ section form .form-control:last-child .icon {
 section form .form-control:last-child .icon:not(:last-child) {
   margin-right: 15px;
 }
-section .container .signup {
-  pointer-events: none;
-}
-section .container.active .signup {
-  pointer-events: initial;
-}
-section .container .signup .form-box {
-  top: 100%;
-}
-section .container.active .signup .form-box {
-  top: 0;
-}
-section .container .signup .img-box {
-  top: -100%;
-}
-section .container.active .signup .img-box {
-  top: 0;
-}
-section .container .login .form-box {
-  top: 0;
-}
-section .container.active .login .form-box {
-  top: 100%;
-}
-section .container .login .img-box {
-  top: 0;
-}
-section .container.active .login .img-box {
-  top: -100%;
-}
 @media (max-width: 996px) {
   section .container {
     max-width: 400px;
   }
   section .container .img-box {
     display: none;
-  }
-  section .container .form-box {
-    width: 100%;
-  }
-  section .container.active .login .form-box {
-    top: -100%;
   }
 }
 @media (max-width: 567px) {
@@ -347,89 +291,6 @@ padding-left: 8px;
     width: 100%;
   }
 }
-.footer{
-  background-color: rgba(238, 227, 227, 0.479);
-  padding: 30px,0;
-}
-ul{
-  list-style: none;
-}
-.footer-col{
-  width: 25%;
-  padding: 0 15px;
-}
-.footer-col h4{
-  font-size: 20px;
-  color: black;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
-  position: relative;
-  cursor: pointer;
-}
-.footer-col h4::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #131885;
-  height: 0.09em;
-  box-sizing: border-box;
-  width: 20%;
-  border-radius: 0%;
-}
-.footer-col ul li:not(:last-child){
-  margin-bottom: 10px;
-}
-.footer-col ul li a{
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffff;
-  text-decoration: none;
-  font-weight: 300;
-  color: #000;
-  display: block;
-  transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-color: #131885;
-padding-left: 8px;
-}
-.footer-col .social-l a{
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: #131885;
-  margin: 0px 10px 10px 0px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: rgb(255, 253, 253);
-  transition: all 0.5s ease;
-}
-.footer-col .social-l a:hover{
-  color: #131885;
-  background-color: rgb(255, 255, 255);
-}
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-  }
-}
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 *{
   margin:0;
   padding: 0;
@@ -509,57 +370,6 @@ button{
 button:hover{
   background-color: #131885;
 }
-hr {
-  width: 250px;
-  height: 3px;
-  background-color:#131885;
-  margin:auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.slide {
-  width: 100%;
-  height: 100vh;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.slide::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(26, 25, 25, 0.5);
-}
-.slide-1 {
-  background-image: url("https://i.f1g.fr/media/madame/704x/sites/default/files/img/2021/12/en-col-roule-pour-le-parfum-eau-sauvage-de-christian-dior-photo-4.jpg");
-}
-.slide-2 {
-  background-image: url("https://www.posterimage.it/wp-content/uploads/2017/03/Dior-Zidane-1.jpg");
-}
-.slide-3 {
-  background-image: url("https://voyage-onirique.com/wp-content/uploads/2022/03/FG0rq4MXMAYQHVq.jpg");
-}
-.slide-content {
-  position: absolute;
-  top: 50%;
-  text-align: center;
-  transform: translateY(-50%);
-  color: #fff;
-  padding: 0 20%;
-}
-.slide-content h1 {
-  font-size: 40px;
-  text-transform: uppercase;
-}
-.slide-content p {
-  text-transform: lowercase;
-  font-size: 15px;
-  margin-bottom: 25px;
-  margin-top: 20px;
-}
 .toggle-button{
   margin-top: 30px;
   position: absolute;
@@ -614,6 +424,3 @@ hr {
       background-color: white;
   }
 }
-  .toggle-button{
-      position: absolute;
-  }   
