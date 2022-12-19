@@ -35,6 +35,7 @@
 
     <?php  if (isset($_SESSION['username'])) : ?>
     	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+	<li class="link-item"><a href="./newsPage.html" class="link">news</a></li>
     	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
     <?php endif ?>
 </div>
