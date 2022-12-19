@@ -218,6 +218,12 @@ section .container.active .login .img-box {
   section {
     padding: 0 30px;
   }
+  .form-group{
+    margin-left: -360px;
+  }
+  .w{
+    margin-left: -340px;
+  }
 }
 .title{
     font-size: 60px;
