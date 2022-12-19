@@ -108,7 +108,16 @@ button:hover{
     padding: 20px;
     margin-left: -20px;
 }
-
+#mainImg2 {
+    width: 650px;
+    height: 800px;
+    margin-left: 2px;
+}
+#mainImg3 {
+    width: 650px;
+    height: 800px;
+    margin-left: 2px;
+}
 .card {
     background-color: white;
     padding: 50px;
@@ -242,6 +251,43 @@ button:hover{
         padding: 12px 1vh;
         height: 50px;
     }
+    .cla {
+        flex-direction: column;
+        align-items: flex-start;    
+    }
+    .toggle-button {
+        display: flex;
+        margin-left: auto;
+    }
+    #mainImg{
+        width: 450px;
+        height: 450px;
+    }
+    #mainImg2{
+        width: 450px;
+        height: 450px;
+    }
+    #mainImg3{
+        width: 450px;
+        height: 450px;
+    }
+    .container{
+        width: 830px;
+        margin-left: -12px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .card{
+        width: 662px;
+    }
+    .rightside{
+        margin-top: 800px;
+        margin-left: -550px;
+    }
+    .q{
+       width: 200px;
+       margin-left: -15px;
+    }
 }
 @media (max-width: 534px){
     .cla {
@@ -270,6 +316,33 @@ button:hover{
     .links-container.active {
         display: flex;
         background-color: white;
+    }
+    #mainImg{
+        width: 450px;
+        height: 450px;
+    }
+    #mainImg2{
+        width: 450px;
+        height: 450px;
+    }
+    #mainImg3{
+        width: 450px;
+        height: 450px;
+    }
+    .container{
+        width: 726px;
+        margin-left: -12px;
+    }
+    .card{
+        width: 662px;
+    }
+    .rightside{
+        margin-top: 800px;
+        margin-left: -550px;
+    }
+    .q{
+       width: 200px;
+       margin-left: -15px;
     }
 }
 @media (max-width: 351px){
