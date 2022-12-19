@@ -29,16 +29,6 @@ body {
     align-items: center;
     display: flex;
 }
-.nav-items{
-    display: flex;
-    align-items:center;
-}
-.nav-items a{
-    margin-left: 20px;
-    color:rgb(214, 163, 163);
-     width:30px;
-     font-size: 30px;
-}
 .links-container{
     width:100%;
     padding: 10px 10vw;
@@ -118,11 +108,6 @@ button:hover{
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: lighter;
-}
-.owl-carousel {
-    width: 100%;
-    height: 100vh;
-
 }
 .slide {
     width: 100%;
@@ -250,35 +235,6 @@ button:hover{
 
     }
 
-}
-@media (max-width: 455px){
-    .nav-items{
-        margin-right: 5%;
-    }
-    
-}
-@media (max-width: 372px){
-    .nav-items{
-        margin-right: 3%;
-    }
-    
-    
-}
-@media (max-width: 351px){
-    .nav-items{
-        margin-right: 5%;
-    }
-    .toggle-button{
-        position: absolute;
-    }
-    
-}
-@media (max-width: 325px){
-    .nav-items{
-        margin-right: 10%;
-    }
-    
-    
 }
 .footer{
     background-color: rgba(238, 227, 227, 0.479);
