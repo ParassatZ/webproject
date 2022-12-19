@@ -29,6 +29,27 @@ body {
     align-items: center;
     display: flex;
 }
+.toggle-button{
+    margin-top: 30px;
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    display: none;
+    
+    margin-left: .2em;
+}
+.toggle-button .bar{
+    height: 5px;
+    width: 100%;
+    background-color: #131885;
+    border-radius: 10px;
+}
+
 .links-container{
     width:100%;
     padding: 10px 10vw;
@@ -69,6 +90,16 @@ body {
   transition-duration: 0.2s;
   text-decoration: underline;
 }
+.sub-header1{
+    height: 85vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(https://r.lvmh-static.com/uploads/2021/12/site-news-cover-12-1584x872.jpg);
+    background-position-x: -20px;
+    background-position:0px;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
 button{
     font-size: 0.8rem;
     font-weight: 700;
@@ -83,6 +114,13 @@ button{
 }
 button:hover{
     background-color: #131885;
+}
+.title{
+    font-size: 60px;
+    padding-top: 200px;
+    text-transform: uppercase; 
+    color:transparent;
+    -webkit-text-stroke:2px white;
 }
 #newsBut{
     font-size: 20px;
@@ -108,6 +146,23 @@ button:hover{
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: lighter;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 65px !important;
+    font-weight: bolder !important;
+    background:none;
+}
+
+.owl-prev {
+    left: 1%;
+}
+
+.owl-next {
+    right: 1%;
 }
 .slide {
     width: 100%;
@@ -169,27 +224,6 @@ button:hover{
     display: table;
     clear: both;
 }
-.toggle-button{
-    margin-top: 30px;
-    position: absolute;
-    top: 0%;
-    right: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-    display: none;
-    
-    margin-left: .2em;
-}
-.toggle-button .bar{
-    height: 5px;
-    width: 100%;
-    background-color: #131885;
-    border-radius: 10px;
-}
-
 
 @media (max-width: 991px){
     .links-container{
@@ -321,13 +355,6 @@ ul{
     padding: 70px;
   
 }
-.title{
-    font-size: 60px;
-    padding-top: 200px;
-    text-transform: uppercase; 
-    color:transparent;
-    -webkit-text-stroke:2px white;
-}
 @media (max-width: 572px){
     .title{
         padding: auto;
@@ -352,16 +379,6 @@ ul{
 
     }
 }
-.sub-header1{
-    height: 85vh;
-    width:100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.358)),url(https://r.lvmh-static.com/uploads/2021/12/site-news-cover-12-1584x872.jpg);
-    background-position-x: -20px;
-    background-position:0px;
-    background-size: cover;
-    text-align: center;
-    color:white;
-}
 hr {
     width: 250px;
     height: 3px;
@@ -369,21 +386,4 @@ hr {
     margin:auto;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.owl-prev, .owl-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #fff;
-    font-size: 65px !important;
-    font-weight: bolder !important;
-    background:none;
-}
-
-.owl-prev {
-    left: 1%;
-}
-
-.owl-next {
-    right: 1%;
 }
