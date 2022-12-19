@@ -157,6 +157,12 @@ section form .form-control:last-child .icon:not(:last-child) {
   section .container .img-box {
     display: none;
   }
+  .form-group{
+    margin-left: -360px;
+  }
+  .w{
+    margin-left: -340px;
+  }
 }
 @media (max-width: 567px) {
   section {
