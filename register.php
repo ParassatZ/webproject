@@ -3,16 +3,13 @@
 <html>
 <head>
   <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="header">
   	<h2>Register</h2>
-	<ul>
-	  <li class="link-item"><a href="aboutUs.html" class="link">about us</a></li>
-	  </ul>
-  </div>
 	
+  </div>
   <form method="post" action="register.php">
   	<?php include('errors.php'); ?>
   	<div class="input-group">
@@ -27,8 +24,9 @@
   	  <label>Password</label>
   	  <input type="password" name="password_1">
   	</div>	
+	
   	<div class="input-group">
-  	  <label>Confirm password</label>
+  	  <label>Confirm password</label>	
   	  <input type="password" name="password_2">
   	</div>
 	  
@@ -38,7 +36,10 @@
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
   	<p>
-  		Already a member? <a href="login.php">Sign in</a>
-  	</p>
+  		Already a member? <a href="login.php" class="link">Sign in</a>
+</p>
+		  <a href="aboutUs.html" class="link">about us</a>
+  
   </form>
 </body>
+</html>
