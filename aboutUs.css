@@ -387,6 +387,7 @@ hr {
 .mntxt {
     margin-top: 2%;
     font-size: 30px;
+    text-align: center;
 }
 .mntxt hr{
     margin:auto; 
